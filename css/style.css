@@ -6,9 +6,26 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    border: 1px red solid;
+    height: 200px;
+    width: 80%;
+    max-width: 1040px;
+    margin: 0 auto;
+    position: relative;
+}
+
 #logo {
-    margin-left: 560px;
-    margin-top: 50px;
+    position: absolute;
+    
+}
+
+#top-nav {
+    width: 90%;
+    border: 1px red solid;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 #top-nav ul li {
@@ -26,8 +43,8 @@ body {
     padding-left: 32px;
     padding-right: 32px;
     position: relative;
-    top: 30px;
-    left: 530px;
+    /* top: 30px; */
+    /* left: 530px; */
 }
 
 #top-nav ul li a:hover {
