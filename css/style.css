@@ -7,7 +7,6 @@ body {
 }
 
 header {
-    border: 1px red solid;
     height: 200px;
     width: 80%;
     max-width: 1040px;
@@ -17,15 +16,17 @@ header {
 
 #logo {
     position: absolute;
-    
+    left: 85px;
 }
 
 #top-nav {
     width: 90%;
-    border: 1px red solid;
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #top-nav ul li {
@@ -43,8 +44,6 @@ header {
     padding-left: 32px;
     padding-right: 32px;
     position: relative;
-    /* top: 30px; */
-    /* left: 530px; */
 }
 
 #top-nav ul li a:hover {
@@ -56,25 +55,38 @@ header {
     color: #897E6F;
 }
 
+#main-container {
+    border: 1px red solid;
+}
+
 #banner {
     border: 4px;
     border-style: solid;
     border-color: white;
-    margin-top: 50px;
-    margin-left: 565px;
+    margin-top: 50px !important;
+    margin: 0 auto;
+    width: 52%;
+    max-width: 1440px;
+    display: block;
+}
+
+#content {
+    border: 1px red solid;
+    width: 52%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 #enjoy {
     color: #316E66;
     font-family: sans-serif;
     font-weight: 200;
-    margin-left: 565px;
     margin-top: 40px;
+    /* padding-left: 5px; */
 }
 
-#banner-text {
-    margin-left: 565px;
-    /*width: 870px;*/
+.content-text {
     font-size: 15px;
     color: #948269;
 }
