@@ -83,7 +83,6 @@ header {
     font-family: sans-serif;
     font-weight: 200;
     margin-top: 40px;
-    /* padding-left: 5px; */
 }
 
 .content-text {
@@ -104,12 +103,10 @@ header {
 
 #blog-inner-wrapper {
     height: auto;
-    /* padding: 10px 10px; */
     border: 1px white solid;
     width: 65%;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
 }
 
 #blog-container, #testimonial-container {
@@ -144,7 +141,6 @@ header {
     background-color: white;
     width: 30%;
     height: 150px;
-    /* margin-left: 565px; */
     margin-top: 20px;
     padding: 10px;
 }
@@ -163,8 +159,10 @@ header {
 }
 
 #option-images {
+    height: auto;
     width: 30%;
     max-width: 260px;
+    min-width: 260px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -183,67 +181,58 @@ header {
     opacity: 0.7;
 }
 
-#grey-box {
+#bottom-menu-container {
     background-color: #AC9E94;
-    width: 45%;
+    width: 100%;
     height: 55px;
-    margin-left: 565px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border: 1px black solid;
+    display: flex;
 }
 
-#grey-box ul li {
-   margin-left: -15px;
+#bottom-menu {
+    width: 70%;
+}
+
+#bottom-menu li {
     list-style: none;
     display: inline-block; 
+    padding: 5px 5px 0 5px;
 }
 
-#grey-box ul li a {
+#bottom-menu li a {
    text-decoration: none;
-    color: #5B4536;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
-    top: 20px;
-    left: -20px; 
+   color: #5B4536;
 }
 
-#grey-box ul li a:hover {
+#bottom-menu li a:hover {
     color: #E5E0DD;
 }
 
-.social {
+#social {
     list-style-type: none;
     text-align: center;
+    width: 25%;
     position: relative;
-    left: 645px;
-    top: -65px;
-    display: inline-block;    
+    bottom: 7px;
 }
 
-.social li {
+#social li {
     display: inline;
 }
 
-.social i {
-    font-size: 200%;
-    margin: 5px;
-    padding: 5% 5% 5% 4%;
+#social i {
+    font-size: 2em;
+    padding: 5px;
     color: #D6CFCA;
 }
 
-.social i:hover {
+#social i:hover {
     color: #EEECEA;
 }
 
 #footer p {
-    margin-left: 750px;
-    margin-top: 20px;
-    padding-bottom: 25px;
-    font-size: 15px;
+    text-align: center;
+    font-size: 1em;
     color: #6B5440;
 }
 
@@ -313,7 +302,6 @@ body {
 
 #banner-text {
     margin-left: 10px;
-    /*width: 870px;*/
     font-size: 12px;
     color: #948269;
 }
@@ -449,6 +437,3 @@ body {
     color: #6B5440;
     text-align: center;
 }
-
-
-    
