@@ -97,7 +97,7 @@ header {
 
 #blog-inner-wrapper {
     height: auto;
-    width: 65%;
+    width: 68%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -231,6 +231,20 @@ header {
 }
 
 /*--START MEDIA QUERIES--*/
+
+
+@media screen and (min-width: 1385px) and (max-width: 1440px) {
+    #blog-inner-wrapper {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 1384px) {
+    #blog-inner-wrapper {
+        width: auto !important;
+    }
+}
+
 
 @media only screen and (min-width: 150px) and (max-width: 768px) {
     
