@@ -428,7 +428,6 @@ header {
     }
 }
 
-
 @media screen and (min-width: 1385px) and (max-width: 1440px) {
     #blog-inner-wrapper {
         width: 60% !important;
@@ -466,6 +465,7 @@ header {
         margin: 0 auto !important;
         padding-top: 10px !important;
         padding-left: 0px !important;
+        width: auto !important;
     }
 
     #social {
@@ -478,12 +478,12 @@ header {
 
 
 @media screen and (max-width: 1251px) {
-    #top-nav {
-        max-width: 1000px !important;
+
+    header {
         width: 100% !important;
     }
 
-    #logo {
-        left: 35px !important;
+    #top-nav {
+        max-width: 1000px !important;
     }
 }
