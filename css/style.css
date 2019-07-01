@@ -428,6 +428,25 @@ header {
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    header {
+        border: 1px red solid;
+        height: 200px;
+        background-color: rgba(0,0,0, 0.8);
+        /* background-color: #AC9E94; */
+    }
+
+    #logo {
+        top: 10px;
+        left: 10px;
+    }
+
+    #top-nav {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 1385px) and (max-width: 1440px) {
     #blog-inner-wrapper {
         width: 60% !important;
