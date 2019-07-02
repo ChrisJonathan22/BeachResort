@@ -433,7 +433,8 @@ header {
     header {
         border: 1px red solid;
         height: 200px;
-        background-color: rgba(0,0,0, 0.8);
+        /* background-color: rgba(0,0,0, 0.8); */
+        /* background-color: rgba(#ffffff, 0.8); */
         /* background-color: #AC9E94; */
     }
 
