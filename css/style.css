@@ -436,6 +436,7 @@ header {
         /* background-color: rgba(0,0,0, 0.8); */
         /* background-color: rgba(#ffffff, 0.8); */
         /* background-color: #AC9E94; */
+        position: relative;
     }
 
     #logo {
@@ -445,6 +446,12 @@ header {
 
     #top-nav {
         display: none;
+    }
+
+    .menu-icon {
+        position: absolute !important;
+        right: 10px;
+        font-size: 3em;
     }
 }
 
