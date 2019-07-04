@@ -15,6 +15,14 @@ header {
     position: relative;
 }
 
+.drawer {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
 #logo {
     position: absolute;
     left: 85px;
@@ -63,7 +71,7 @@ header {
 
 #content {
     width: 52%;
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 5px;
 }
@@ -82,7 +90,7 @@ header {
 
 #content-container {
     width: 52.6%;
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -431,11 +439,9 @@ header {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     header {
-        border: 1px red solid;
-        height: 200px;
-        /* background-color: rgba(0,0,0, 0.8); */
-        /* background-color: rgba(#ffffff, 0.8); */
-        /* background-color: #AC9E94; */
+        /* border: 1px red solid; */
+        height: 150px;
+        background-color: rgba(0,0,0, 0.8);
         position: relative;
     }
 
@@ -450,8 +456,24 @@ header {
 
     .menu-icon {
         position: absolute !important;
+        top: 50px;
         right: 10px;
         font-size: 3em;
+        display: block;
+        color: white;
+    }
+
+    .drawer {
+        display: block;
+        background-color: white;
+        height: 0;
+        width: 100%;
+        position: absolute;
+        transition: all 0.5s;
+    }
+
+    .open-drawer {
+        height: 100% !important;
     }
 }
 
