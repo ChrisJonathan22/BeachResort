@@ -470,10 +470,34 @@ header {
         width: 100%;
         position: absolute;
         transition: all 0.5s;
+        overflow: hidden;
     }
 
     .open-drawer {
-        height: 100% !important;
+        height: 100vh !important;
+    }
+
+    #mobile-nav {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #mobile-nav ul {
+        list-style: none;
+    }
+
+    #mobile-nav ul li {
+        padding: 20px 0;
+    }
+
+    #mobile-nav ul li a {
+        text-decoration: none;
+        color: #6B5440;
+    }
+
+    #mobile-nav ul li a:hover {
+        color: #2F978A;
     }
 }
 
