@@ -436,7 +436,7 @@ header {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     header {
         /* border: 1px red solid; */
@@ -464,27 +464,29 @@ header {
     }
 
     .drawer {
-        display: block;
         background-color: white;
         height: 0;
         width: 100%;
         position: absolute;
         transition: all 0.5s;
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .open-drawer {
-        height: 100vh !important;
+        height: 50vh !important;
     }
 
-    #mobile-nav {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
+    .reveal-menu-items {
+        display: initial !important;
     }
 
     #mobile-nav ul {
         list-style: none;
+        display: none;
+        transition: all 0.5s;
     }
 
     #mobile-nav ul li {
@@ -499,6 +501,18 @@ header {
     #mobile-nav ul li a:hover {
         color: #2F978A;
     }
+
+    #banner, #content-container {
+        width: 90% !important;
+    }
+
+    #content {
+        width: 70% !important;
+    }
+
+    #blog-inner-wrapper, #blog-container, #testimonial-container {
+        width: 100% !important;
+    } 
 }
 
 @media screen and (min-width: 1385px) and (max-width: 1440px) {
