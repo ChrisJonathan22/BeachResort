@@ -47,7 +47,7 @@ header {
 #top-nav ul li a {
     text-decoration: none;
     background-color: #409489;
-    color: white;
+    color: #ffffff;
     padding: 20px 32px;
     position: relative;
     transition: all 0.5s;
@@ -61,7 +61,7 @@ header {
 #banner {
     border: 4px;
     border-style: solid;
-    border-color: white;
+    border-color: #ffffff;
     margin-top: 50px !important;
     margin: 0 auto;
     width: 52%;
@@ -134,7 +134,7 @@ header {
 }
 
 #little-white-box {
-    background-color: white;
+    background-color: #ffffff;
     width: 30%;
     height: 150px;
     margin-top: 20px;
@@ -240,7 +240,7 @@ header {
 @media only screen and (min-width: 150px) and (max-width: 768px) {
 
     body {
-        background-color: white;
+        background-color: #ffffff;
         overflow-x: hidden;
         width: 100%;
     }
@@ -260,7 +260,7 @@ header {
     #top-nav ul li a {
         text-decoration: none;
         background-color: #409489;
-        color: white;
+        color: #ffffff;
         padding-top: 2px;
         padding-bottom: 2px;
         padding-left: 2px;
@@ -284,7 +284,7 @@ header {
     #banner {
         border: 3px;
         border-style: solid;
-        border-color: white;
+        border-color: #ffffff;
         margin-top: -20px;
         margin-left: 22px;
         width: 80%;
@@ -306,7 +306,7 @@ header {
     }
 
     #big-white-box {
-        background-color: white;
+        background-color: #ffffff;
         width: 87%;
         height: 400px;
         margin-left: 5.5px;
@@ -330,7 +330,7 @@ header {
     }
 
     #little-white-box {
-        background-color: white;
+        background-color: #ffffff;
         width: 87%;
         height: 200px;
         margin-left: 5.5px;
@@ -439,7 +439,6 @@ header {
 @media screen and (max-width: 1024px) {
 
     header {
-        /* border: 1px red solid; */
         height: 150px;
         background-color: rgba(0,0,0, 0.8);
         position: relative;
@@ -460,11 +459,11 @@ header {
         right: 10px;
         font-size: 3em;
         display: block;
-        color: white;
+        color: #ffffff;
     }
 
     .drawer {
-        background-color: white;
+        background-color: #ffffff;
         height: 0;
         width: 100%;
         position: absolute;
@@ -483,14 +482,37 @@ header {
         display: initial !important;
     }
 
+    #mobile-nav {
+        width: 40%;
+    }
+
     #mobile-nav ul {
         list-style: none;
         display: none;
         transition: all 0.5s;
+        width: 100%;
     }
 
     #mobile-nav ul li {
         padding: 20px 0;
+        margin-bottom: 20px;
+        border: 1px black solid;
+        width: 100%;
+        text-align: center;
+        transition: all 1s;
+        transform: rotate(45deg);
+    }
+
+    .undo-rotate {
+        transform: rotate(0deg) !important;
+    }
+
+    #mobile-nav ul li:hover {
+        background-color: #2F978A;
+    }
+
+    #mobile-nav ul li:hover a{
+        color: #ffffff;
     }
 
     #mobile-nav ul li a {
@@ -499,7 +521,7 @@ header {
     }
 
     #mobile-nav ul li a:hover {
-        color: #2F978A;
+        color: #a17940;
     }
 
     #banner, #content-container {
