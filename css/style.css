@@ -556,6 +556,26 @@ header {
     }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1380px) {
+
+    #bottom-menu-container {
+        height: 95px !important;
+    }
+
+    #bottom-menu {
+        width: 93% !important;
+        margin: 10px auto !important;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    #social {
+        position: initial !important;
+        padding: 0 !important;
+    }
+}
+
 @media screen and (min-width: 1385px) and (max-width: 1440px) {
     #blog-inner-wrapper {
         width: 60% !important;
