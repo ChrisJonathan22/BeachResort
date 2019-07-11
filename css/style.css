@@ -447,6 +447,7 @@ header {
     #logo {
         top: 10px;
         left: 10px;
+        width: 15% !important;
     }
 
     #top-nav {
@@ -553,6 +554,29 @@ header {
 
     #social {
         width: 20% !important;
+    }
+}
+
+@media screen and (max-width: 849px) {
+
+    #option-images a {
+        width: 30% !important;
+    }
+
+    #bottom-menu-container {
+        height: auto;
+    }
+
+    #bottom-menu {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    #social {
+        position: initial;
+        width: 25% !important;
+        margin: 10px auto;
+        padding: 0;
     }
 }
 
