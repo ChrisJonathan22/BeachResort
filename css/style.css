@@ -392,21 +392,6 @@ header {
         width: 50% !important;
     }
 
-    .social li {
-        display: inline;
-    }
-
-    .social i {
-        font-size: 120%;
-        margin: 5px;
-        padding: 5% 5% 5% 4%;
-        color: #D6CFCA;
-    }
-
-    .social i:hover {
-        color: #EEECEA;
-    }
-
     #footer p {
         margin-left: 3px;
         margin-top: 70px;
