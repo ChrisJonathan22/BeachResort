@@ -76,7 +76,7 @@ header {
     padding: 5px;
 }
 
-#enjoy {
+#content-title {
     color: #316E66;
     font-family: sans-serif;
     font-weight: 200;
@@ -290,7 +290,7 @@ header {
         width: 80%;
     }
 
-    #enjoy {
+    #content-title {
         color: #316E66;
         font-family: sans-serif;
         font-weight: 500;
@@ -413,7 +413,7 @@ header {
     #logo {
         top: 10px;
         left: 10px;
-        width: 15% !important;
+        width: 13% !important;
     }
 
     #top-nav {
@@ -442,7 +442,7 @@ header {
     }
 
     .open-drawer {
-        height: 50vh !important;
+        height: 60vh !important;
     }
 
     .reveal-menu-items {
@@ -497,6 +497,16 @@ header {
 
     #content {
         width: 70% !important;
+    }
+
+    #content-title {
+        font-size: 1.8em;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .content-text {
+        font-size: 1.2em;
     }
 
     #option-images {
