@@ -245,10 +245,22 @@ header {
         width: 100%;
     }
 
-    #logo {
+    header {
+        height: 100px !important;
+    }
+
+    a #logo {
         margin-left: 5px;
         margin-top: 5px;
-        width: 20%;
+        width: 20% !important;
+    }
+
+    .menu-icon {
+        top: 25px !important;
+    }
+
+    .open-drawer #mobile-nav ul li {
+        padding: 5px 0 !important;
     }
 
     #top-nav ul li {
